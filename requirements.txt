@@ -1,0 +1,7 @@
+jupyter
+nbconvert
+ffmpeg-python
+jupyter-cache
+ipython
+ipykernel
+black

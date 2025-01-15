@@ -13,5 +13,44 @@ Capital defined
 * Kt  is the stock (#)
 * diminishing marginal products for BOTH K and N 
 - create examples with labor and capital augmenting 
+Capital Allocations 
+* macroeconomists care about allocation - not money
+    * values are in real terms
+- question 
+    if gN is positive, what happens to kt+1? --> we need to invest more to keep up with the rate of population growth 
+introducing choice in the capital allocation formula (moving away from accounting and towards economics)
+* Ct +Xt equals the function of Kt and Nt (depends on decisions and trade off)
+- question 
+    what if s = 1?
+
+## Savings
+* formula is non-linear because f(kt) is non-linear 
+
+as fixed point:
+    f(k_bar) = k_bar 
+
+# Wages and rental rate of capital
+- question
+    * what would we need to change in the graph to flatten the savings curve?
+- question 
+    * firms have to bargaining power over wages - taking them as fixed. This is an assumption of the model. Which other models change this assumption?
+- question 
+    * when are we sure about the existence of a ss?
+    --> strictly concave, delta pos
+- question 
+    * what happens when gN is 0 or neg? can you get ss?
+
+- EXAM question
+    * what extent of plotting is required 
+
+# Code for fixed point steady state 
+* H function = right side of Kt+1 equation
+
+## 45 degree diagram for solow 
+* type of function plot45?
+- what is plot45 doing?
+    * mapping k to h(k; p) where p is fixed 
+
+or alternatively ## Transition dynamics 
 
 # Neoclassical model 

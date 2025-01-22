@@ -1,0 +1,33 @@
+# missing from equation?
+* randomness 
+
+** important **
+    transformation out of normal distribution 
+
+E[f(x)] is a dot product of the sum of the vector of f(x)s and all ps
+
+iid - random variables
+
+what are the key assumption on the distribution that make LLN w/ normal distribution possible?
+* needs to have a mean
+
+## cauchy distribution
+* distribution case where there is no mean
+    * long tails (pdf does go to zero but takes a long time)
+KEY questions
+- how many draws are necessary to get E[f(x)]
+    for cauchy, none is enough 
+
+## stochastic processes 
+macro inherently dynamic but everything that happened today depends on the time period before (not entirely random)
+* therefore, we use stochastic processes
+    sequence of random variables (dependence on order)
+    * we are using discrete time 
+    * but, finance sometimes uses continuous time
+
+## Markov processes 
+* unnecessary to know all historical information, only the period before 
+    think of a random walk 
+    
+
+

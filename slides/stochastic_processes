@@ -29,5 +29,45 @@ macro inherently dynamic but everything that happened today depends on the time 
 * unnecessary to know all historical information, only the period before 
     think of a random walk 
     
+## Simple auto-regressive process w/ 1 lag 
+* x0 as a value or distribution 
+- what is a degenerate random variable? or initial condition?
+- how linear combinations of random variables staying normal is relevant for
+    future eg?
+* dynamics of mean, dynamics of cov
+- solve for the formula for the recursion 
+
+## visualizing AR(1) process
+* distributions changing over time: var increasing 
+
+- why is f(x_t) = x_t+1 deterministic?
+    * x can be a random variable but the distribution is deterministic in the way it evolves
 
 
+## [code] keyword arguments
+* x = iterate_map(x -> f(x; a, b, c), x_0, T) --> binding a,b,c 
+    *  same as Python's a=a, b=b, c=c
+
+fun f(x)
+    a = x^2
+    b = x+2
+    return (;a, b) # synonymous to python a=a, b=b
+
+p = (;a=0.9, b=5, e=2)
+function f(x,p)
+    mu = x[1]
+    v = x[2]
+    return [p.a * mu + p.b, p.a^2 +v + p.c^2]
+end
+
+iterate_map --> f((x; p), ...)
+
+- will x_t+1 = Ax_t + B converge?
+    * linear --> prove that there will be a fixed point (if any)
+
+- what is the specral radius 
+- what happens when a < 0?
+
+
+## ergodicity 
+- when is something ergodic?

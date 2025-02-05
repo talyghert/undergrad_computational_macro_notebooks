@@ -1,5 +1,18 @@
 # Linear difference equations 
 when a is less that 1 --> as t goes to infinity, term drops off 
+- linear and non-linear difference equations
+    * can be reduced to the form: Ly = f where L is some linear operator 
+- what is a time homogeneous first order difference equation?
+    * time is discrete (think of taking integer values)
+    * where h function is at the same at each t: the rule governing the evolution of the state variable remains the same for all periods -- if we apply function h at any time t, we get the next state in the same manner 
+    - what is a state space?
+    - what is a state variable?
+    - what does it mean it is first-order?
+        * depends only on one lag (x_t to determine future period and not x_t-1) 
+
+ASK: only doing homogeneous?
+
+
 ## local vs.global stability 
 * not the case: converge vs diverge 
     * whereas local: may converge to something else, etc.

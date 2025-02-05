@@ -71,3 +71,29 @@ iterate_map --> f((x; p), ...)
 
 ## ergodicity 
 - when is something ergodic?
+
+## stochastic productivity 
+- constants, what should they be?
+    * a < 0 --> stationary (if >0 --> unbounded)
+    - possible values for others? outcomes?
+* where Z_t = e^zt --> cannot be 0
+
+## ergodicity and capital accumulation
+
+note: we have been doing additive processes
+
+## multiplicative processes 
+### for wealth distribution, etc.
+
+## kesten processes 
+- why do we need y shock?
+* 1 + g < 1 MOST of the time (on average) -- otherwise kesten will blow up
+    * 
+- page 78, sigma negative same as the function or returns being negative???
+
+x .= a 
+* broadcasts the new variable across all of a onto x 
+* cna also be written as a for loop
+* without the dot: not overwriting x as a 
+
+- why is this different from addititve stochastic processes?
